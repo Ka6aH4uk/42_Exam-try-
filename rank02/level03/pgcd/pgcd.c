@@ -3,13 +3,13 @@
 
 int	main(int argc, char const *argv[])
 {
+	int string1 = atoi(argv[1]);
+	int string2 = atoi(argv[2]);
 	if (argc != 3)
 	{
 		printf ("\n");
 		return (0);
 	}
-	int string1 = atoi(argv[1]);
-	int string2 = atoi(argv[2]);
 	if (string1 <= 0 || string2 <= 0)
 	{
 		printf ("\n");
